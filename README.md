@@ -44,13 +44,11 @@ App_monitoramento/
 ├── README.md # Guia de instalação e uso
 ├── app.py # Servidor Flask + Thread de rastreamento
 ├── db/
-│ └── monitor_atividade.db # Banco SQLite (gerado automaticamente no primeiro início)
+│       └── monitor_atividade.db # Banco SQLite (gerado automaticamente no primeiro início)
 └── web/
-├── index.html # Estrutura visual do painel
-├── style.css # Estilos e scrollbars personalizadas
-└── dashboard.js # Lógica do painel, gráficos e filtros
-
-text
+        ├── index.html # Estrutura visual do painel
+        ├── style.css # Estilos e scrollbars personalizadas
+        └── dashboard.js # Lógica do painel, gráficos e filtros
 
 ---
 
@@ -60,15 +58,15 @@ text
 - Baixe em [python.org](https://www.python.org/downloads/) e marque **"Add Python to PATH"** durante a instalação.
 
 ### 2️⃣ Abra o terminal na pasta do projeto
-```bash
+---
 cd "C:\Caminho\Para\Sua\Pasta\App_monitoramento"
 
 3️⃣ Instalar dependências (sem necessidade de privilégios de administrador)
-```bash
+---
 pip install --user -r requirements.txt
 
 4️⃣ Iniciar o rastreador e o servidor local
-```bash
+---
 python app.py
 O servidor Flask estará disponível em:
 
